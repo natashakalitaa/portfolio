@@ -13,6 +13,10 @@ section {
     margin: 80px 0;
 }
 
+section:first-of-type {
+    margin-top: 0;
+}
+
 .hero-row {
     display: flex;
     align-items: center;
@@ -57,10 +61,6 @@ section {
     background-color: #DCE6F0;
     transform: translateY(-2px);
 }
-.chip:hover {
-    background-color: #DCE6F0;
-    transform: translateY(-2px);
-}
 
 @media (max-width: 480px) {
     
@@ -73,21 +73,11 @@ section {
 
 
 h1 {
-   font-size: 48px;
-    font-weight: 1000;
-}
-
-section {
-    margin-bottom: 10px;
-    margin: 80px 0;
-}
-
-h1{
     font-size: 32px;
-    color:#3a312b;
+    font-weight: 700;
+    color: #3a312b;
     padding: 10px;
 }
-
 
 img {
     width: 200px;
@@ -114,4 +104,8 @@ nav {
     color: #5C6B7A;
     font-weight: 600;
     font-size: 14px;
+}
+
+html {
+    scroll-behavior: smooth;
 }
